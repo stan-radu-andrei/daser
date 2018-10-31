@@ -52,12 +52,58 @@ body{
     -webkit-box-sizing: border-box;
   }
 
+  .navbarButton{
+    margin: auto;
+    background-color: #303B47;
+    border: none;
+    color: white;
+    padding: 10px 21px;
+    /* text-align: center; */
+    /* display: inline-block; */
+    font-size: 16px;
+
+  }
+
+  .buttonWrap{
+      margin: auto;
+      text-align: center;
+  }
+
+  .navbarButton:hover{
+      background-color: rgb(76, 100, 119);
+  }
   .menuButton{
-    color: rgb(10, 7, 7);
+    background-color: rgb(76, 100, 119);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    /* text-align: center; */
+    /* display: inline-block; */
+    font-size: 16px;
     width: 80%;
     margin: 10px;
   }
 
+  .plusButton{
+    background-color: rgb(76, 100, 119);
+    border: none;
+    color: white;
+    padding: 10x 21px;
+    /* text-align: center; */
+    /* display: inline-block; */
+    font-size: 36px;
+    width: 80%;
+    margin: 10px;
+  }
+  .plusButton:hover{
+
+    background-color:#303B47
+  }
+
+  .menuButton:hover{
+
+    background-color:#303B47
+  }
   .sidebarWrap {
     flex: 1 1 auto;
     position: relative;
