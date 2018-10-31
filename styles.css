@@ -44,8 +44,6 @@ body{
 .main {
     position: relative;
     width: 100%;
-    padding-top: 50px; /* Use the topbar's height + something more? */
-    padding-left: 100px; /* Use the sidebar's width + something more? */
     background-color: grey;
     /* Set box-sizing to border-box, to ensure the content block stays within the window, and not expand due to padding */
     box-sizing: border-box;
@@ -110,3 +108,45 @@ body{
     width: 100%;
     overflow: hidden;
   }
+
+  #customers {
+    border-collapse: collapse;
+    margin-left: 15px;
+    width:98%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr{
+    background-color: white;
+    min-width: 25px;
+}
+#customers tr:nth-child(even){background-color: rgba(255, 255, 255, 0.767);}
+
+/* #customers tr:hover {background-color: rgba(255, 255, 255, 0.849);} */
+
+#customers th {
+    min-width: 25px;
+    margin-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #303B47;
+    color: white;
+}
+
+.tableHeader{
+
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    font-size: 28px;
+}
+
+@media screen and (max-width: 610px){
+    
+}
